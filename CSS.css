@@ -124,7 +124,7 @@ body {
 .mainBtnHome {
     border-radius: 50%;
     transition: all .4s;
-    box-shadow: 0px 0px 0px #ab5052;
+    box-shadow: 0px 0px 1000px #ab5052;
 }
 
 .mainBtnHome:hover {
