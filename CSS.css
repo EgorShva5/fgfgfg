@@ -122,6 +122,17 @@ body {
     border-radius: 100px;  
 }
 
+.mainBtnHome {
+    border-radius: 50%;
+    transition: all .4s;
+    box-shadow: 0px 0px 0px #ab5052;
+}
+
+.mainBtnHome:hover {
+    box-shadow: 0px 0px 15px #ab5052;
+}
+
+
 @media (orientation: landscape) {
     .bck {
         backdrop-filter: blur(4px);
