@@ -32,7 +32,7 @@ body {
 }
 
 .second {
-    padding: 0px;
+
     transform-style: flat;
     background: url(https://i.postimg.cc/NfBWKvPC/Mountain-Brotherhood2.png;);
     background-position: center;
@@ -219,6 +219,15 @@ body {
     scale: 1.1;
     box-shadow: 0px 0px 5px black;
     border-radius: 100px;  
+}
+.mainBtnHome {
+    border-radius: 50%;
+    transition: all .4s;
+    box-shadow: 0px 0px 0px #ab5052;
+}
+
+.mainBtnHome:hover {
+    box-shadow: 0px 0px 15px #ab5052;
 }
 
 @media (orientation: landscape) {
